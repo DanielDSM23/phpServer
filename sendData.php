@@ -1,7 +1,7 @@
 <?php
 $IP = $_SERVER['REMOTE_ADDR'];
 
-$mysqli = new mysqli("localhost/","daniel.monteiro1","xxxx","listeClient");
+$mysqli = new mysqli("localhost","daniel.monteiro1","xxxx","listeClient");
 
 if($mysqli -> connect_errno){
 	echo "Failed to connect to MySQL: " . $mysqli -> connect_error;
